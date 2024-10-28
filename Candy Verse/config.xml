@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1010500" id="super.candy.verse" version="1.1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="CDVWebViewEngine">
+        <param name="ios-package" value="CDVWebViewEngine" />
+    </feature>
+    <feature name="LaunchScreen">
+        <param name="ios-package" value="CDVLaunchScreen" />
+    </feature>
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="JavaScriptBridge">
+        <param name="ios-package" value="JavaScriptBridge" />
+    </feature>
+    <preference name="AllowPopups" value="true" />
+    <preference name="WKWebViewOnly" value="true" />
+    <allow-navigation href="http://*/*" />
+    <name>Candy Verse</name>
+    <description>Welcome to the magical world of Candy Verse, where you play as the plucky lollipop man! Immerse yourself in a sweet adventure full of bright colors and exciting challenges. You are waiting for an exciting platformer with a variety of mini-games that will not let you get bored for a minute.  Overcome obstacles, solve puzzles and participate in fun competitions. Collect candies and keep track of your statistics, compare results with your friends and become the best in the world of sweets!  Ready to embark on the sweetest journey of your life? Then go for it at Candy Verse!</description>
+    <author email="" href="" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="blob:*" />
+    <icon density="xxxhdpi" height="512" src="www/icons/icon-512.png" width="512" />
+    <icon height="256" src="www/icons/icon-256.png" width="256" />
+    <icon density="xhdpi" height="128" src="www/icons/icon-128.png" width="128" />
+    <icon density="mdpi" height="64" src="www/icons/icon-64.png" width="64" />
+    <icon height="32" src="www/icons/icon-32.png" width="32" />
+    <icon height="16" src="www/icons/icon-16.png" width="16" />
+    <access origin="*" />
+    <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
+        <string>This allows the app to use interactive camera input.</string>
+    </config-file>
+    <splash src="www/icons/default@2x~universal~anyany.png" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="MediaTypesRequiringUserActionForPlayback" value="none" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" value="false" />
+    <preference name="LoadUrlTimeoutValue" value="120000" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="InspectableWebview" value="true" />
+    <preference name="scheme" value="app" />
+    <preference name="hostname" value="localhost" />
+    <preference name="PreferredContentMode" value="mobile" />
+    <preference name="deployment-target" value="13.0" />
+</widget>
