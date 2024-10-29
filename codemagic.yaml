@@ -4,15 +4,15 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: CandyVerse
+      app_store_connect: SugarCityofSweets
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: super.candy.verse
+        bundle_identifier: sugar.city.sweets
       vars:
-        BUNDLE_ID: "super.candy.verse"
-        XCODE_WORKSPACE: "Candy Verse.xcworkspace" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "Candy Verse" # <-- Put the name of your Xcode scheme here
+        BUNDLE_ID: "sugar.city.sweets"
+        XCODE_WORKSPACE: "Sugar & City of Sweets.xcworkspace" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "Sugar & City of Sweets" # <-- Put the name of your Xcode scheme here
         APP_STORE_APPLE_ID: 6708238138
       xcode: latest
       cocoapods: default
