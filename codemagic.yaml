@@ -13,7 +13,7 @@ workflows:
         BUNDLE_ID: "sugar.city.sweets"
         XCODE_WORKSPACE: "Sugar & City of Sweets.xcworkspace" # <-- Put the name of your Xcode workspace here
         XCODE_SCHEME: "Sugar & City of Sweets" # <-- Put the name of your Xcode scheme here
-        APP_STORE_APPLE_ID: 6708238138
+        APP_STORE_APPLE_ID: 6737488253
       xcode: latest
       cocoapods: default
     scripts:
